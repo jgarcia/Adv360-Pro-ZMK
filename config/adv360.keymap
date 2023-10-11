@@ -54,11 +54,11 @@
 
         mod {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none           &none            &none                 &none                  &none  &none
-&none  &kp EXCL      &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &bootloader                                            &bootloader             &kp CARET       &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
-&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &kp MINUS       &kp EQUAL        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none
-&none  &none         &none         &none         &none         &none                             &none      &none                                           &kp UNDERSCORE  &kp PLUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
-&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC       &bl BL_DEC            &none                  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none           &none          &none             &none                 &none                  &none
+&none  &kp EXCL      &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT   &bootloader                                            &bootloader             &kp CARET       &kp AMPERSAND  &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH               &none
+&none  &none         &none         &none         &none         &none                             &none      &none                                           &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &none
+&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC     &bl BL_DEC        &none                 &none                  &none
             >;
         };
     };
